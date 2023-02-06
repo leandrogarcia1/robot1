@@ -1,0 +1,151 @@
+body{
+    background-color: black;
+}
+
+
+.face{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 70px;
+    width: 105px;
+    margin: auto;
+    background: white;
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+
+
+}
+
+
+.body{
+    position: absolute;
+    top: 320px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 220px;
+    width: 140px;
+    margin: auto;
+    background: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 400px;
+    border-bottom-right-radius: 400px;
+    
+}
+
+.cuerpo{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    width: 90px;
+    margin: auto;
+    background: black;
+    border-top-left-radius: 180px;
+    border-top-right-radius: 180px;
+    border-bottom-left-radius: 140px;
+    border-bottom-right-radius: 140px;
+
+
+    
+    
+    
+} 
+
+.eye1{
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    right: 0;
+    bottom: 0;
+    height: 15px;
+    width: 17px;
+    margin: auto;
+    background: blue;
+    border-top-left-radius: 180px;
+    border-top-right-radius: 180px;
+    border-bottom-left-radius: 140px;
+    border-bottom-right-radius: 140px;
+    
+}
+
+.eye2{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 40px;
+    bottom: 0;
+    height: 15px;
+    width: 17px;
+    margin: auto;
+    background: blue;
+    border-top-left-radius: 180px;
+    border-top-right-radius: 180px;
+    border-bottom-left-radius: 140px;
+    border-bottom-right-radius: 140px;
+    
+}
+
+.brazo1{
+    position: absolute;
+    top: 100px;
+    left: 210px;
+    right: 0;
+    bottom: 0;
+    height: 120px;
+    width: 40px;
+    margin: auto;
+    background: white;
+    border-top-left-radius: 280px;
+    border-top-right-radius: 280px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 80px; 
+    animation:hand 1s linear infinite;
+    
+     
+}
+
+.brazo2{
+    position: absolute;
+    top: 300px;
+    left: 0;
+    right: 200px;
+    bottom: 0;
+    height: 120px;
+    width: 40px;
+    margin: auto;
+    background: white;
+    border-top-left-radius: 180px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 680px;
+    border-bottom-right-radius: 680px; 
+    transform: rotateZ(0deg);
+   
+     
+}
+
+@keyframes hand {
+    0%{
+        transform: translatex(40px) rotate(25deg);
+    }
+    50%{
+        transform: translatex(0px) rotate(-0deg);
+    }
+    100%{
+        transform: translatex(40px) rotate(25deg);
+    }
+    
+} 
+
+
+
+
